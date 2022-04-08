@@ -1,0 +1,27 @@
+POST http://localhost:4003/products
+content-type: application/json
+
+{
+    "name": "Mega Drive",
+    "price": 300
+}
+
+###
+GET http://localhost:4003/products
+
+###
+GET http://localhost:4003/products/ef6dc9f7-1225-419d-a583-770b3f5f7dde
+
+###
+
+PUT  http://localhost:4003/products/6a98d582-fd4b-4187-ac60-18da74b5fc8b
+content-type: application/json
+
+{
+    "name": "Nintendo ",
+    "price": 500
+}
+
+###
+
+DELETE http://localhost:4003/products/f3efa880-a0b0-4ebd-ac6c-9be1fe7b728b
